@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rififi dans l'Arizona — la crise belge vue par ses relations</title>
+  <meta name="description" content="Disputes, petites phrases et relations interpersonnelles au cœur de la crise de la coalition Arizona (novembre 2026) : réseau, chronologie, citations, acteurs, scénarios et sources.">
+  <meta property="og:title" content="Rififi dans l'Arizona">
+  <meta property="og:description" content="La crise du gouvernement De Wever vue sous l'angle des relations entre ses acteurs.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#synthese">Aller au contenu</a>
+
+  <header class="masthead">
+    <div class="masthead__top">
+      <span class="kicker">Dossier · Belgique fédérale</span>
+      <span class="kicker" id="etat-au">État au 18 novembre 2026</span>
+    </div>
+    <h1 class="masthead__title">Rififi <em>dans l'Arizona</em></h1>
+    <p class="masthead__sub">La crise du gouvernement De Wever racontée par les relations entre ses acteurs : les ruptures, les rancœurs, les petites phrases et les sorties médiatiques.</p>
+    <div class="countdown" id="countdown" aria-live="polite"></div>
+  </header>
+
+  <nav class="nav" aria-label="Sections">
+    <ul>
+      <li><a href="#synthese">Synthèse</a></li>
+      <li><a href="#reseau">Réseau</a></li>
+      <li><a href="#chronologie">Chronologie</a></li>
+      <li><a href="#phrases">Petites phrases</a></li>
+      <li><a href="#acteurs">Acteurs</a></li>
+      <li><a href="#lectures">Lectures</a></li>
+      <li><a href="#scenarios">Scénarios</a></li>
+      <li><a href="#methode">Méthode &amp; sources</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <noscript><p class="noscript">Ce dossier charge ses données avec JavaScript. Activez-le pour afficher le réseau, la chronologie et les citations.</p></noscript>
+
+    <section id="synthese" class="section">
+      <header class="section__head"><span class="section__num">01</span><h2>Synthèse</h2></header>
+      <p class="lede" id="these"></p>
+      <div class="stats" id="chiffres"></div>
+      <div class="keys" id="points-cles"></div>
+    </section>
+
+    <section id="reseau" class="section section--wide">
+      <header class="section__head"><span class="section__num">02</span><h2>Le réseau des relations</h2></header>
+      <p class="intro">Chaque trait représente une relation et sa couleur indique son état au 18 novembre. Cliquez sur une personne ou sur un trait pour afficher le détail et les sources.</p>
+      <div class="chips" id="filtre-etats" role="group" aria-label="Filtrer par état de la relation"></div>
+      <div class="network">
+        <div class="network__canvas"><svg id="graph" viewBox="0 0 1040 640" role="img" aria-label="Graphe des relations entre les acteurs de la crise"></svg></div>
+        <aside class="panel" id="panel" aria-live="polite"></aside>
+      </div>
+      <h3 class="subhead">Qui tire sur qui ?</h3>
+      <p class="intro">Nombre de citations à charge (attaques, ripostes, ironie, ultimatums) recensées, par auteur (en ligne) et par cible (en colonne).</p>
+      <div class="matrix-wrap"><table class="matrix" id="matrice"></table></div>
+    </section>
+
+    <section id="chronologie" class="section">
+      <header class="section__head"><span class="section__num">03</span><h2>Chronologie de l'escalade</h2></header>
+      <div class="filters">
+        <div class="chips" id="filtre-types" role="group" aria-label="Filtrer par type d'événement"></div>
+        <label class="select">Acteur <select id="filtre-acteur-chrono"><option value="">Tous</option></select></label>
+      </div>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <section id="phrases" class="section section--wide">
+      <header class="section__head"><span class="section__num">04</span><h2>Le mur des petites phrases</h2></header>
+      <p class="intro" id="note-citations"></p>
+      <div class="filters">
+        <label class="select">Qui parle <select id="f-de"><option value="">Tout le monde</option></select></label>
+        <label class="select">Qui est visé <select id="f-vers"><option value="">Tout le monde</option></select></label>
+        <div class="chips" id="f-ton" role="group" aria-label="Filtrer par ton"></div>
+        <label class="search"><span class="visually-hidden">Rechercher</span><input type="search" id="f-q" placeholder="Rechercher un mot…"></label>
+      </div>
+      <p class="count" id="count-citations"></p>
+      <div class="quotes" id="quotes"></div>
+    </section>
+
+    <section id="acteurs" class="section section--wide">
+      <header class="section__head"><span class="section__num">05</span><h2>Les acteurs</h2></header>
+      <div class="legend-parties" id="legende-partis"></div>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section id="lectures" class="section">
+      <header class="section__head"><span class="section__num">06</span><h2>Ce qu'en disent les observateurs</h2></header>
+      <div class="analyses" id="analyses"></div>
+    </section>
+
+    <section id="scenarios" class="section">
+      <header class="section__head"><span class="section__num">07</span><h2>Scénarios &amp; signaux à surveiller</h2></header>
+      <div class="scenarios" id="scenarios-list"></div>
+      <h3 class="subhead">D'ici au 23 novembre, surveiller…</h3>
+      <ul class="signals" id="signaux"></ul>
+    </section>
+
+    <section id="methode" class="section">
+      <header class="section__head"><span class="section__num">08</span><h2>Méthode, zones d'ombre &amp; sources</h2></header>
+      <div class="method">
+        <p>Ce dossier croise deux rapports de recherche établis le 18 novembre 2026 et des vérifications complémentaires dans la presse belge francophone, néerlandophone et germanophone. Les faits établis (dates, audiences royales, déclarations publiques) reposent sur plusieurs sources concordantes. Les propos de coulisses viennent de « sources gouvernementales » anonymes et sont signalés comme tels. Les citations sont courtes et renvoient à l'article d'origine.</p>
+        <p>La lecture interpersonnelle a ses limites : le contenu des kerns n'est connu que par des confidences, et chaque fuite sert aussi la stratégie de quelqu'un. Le dossier ne prend pas parti et rapporte de la même manière les arguments de chaque camp.</p>
+      </div>
+      <h3 class="subhead">Points de divergence entre sources</h3>
+      <dl class="divergences" id="divergences"></dl>
+      <h3 class="subhead">Sources citées <span class="muted" id="nb-sources"></span></h3>
+      <ol class="sources" id="sources"></ol>
+      <h3 class="subhead">Travaux liés</h3>
+      <ul class="links" id="travaux"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Rififi dans l'Arizona</strong> : un site statique sans étape de compilation (HTML, CSS, JS et données JSON). Toutes les données se trouvent dans <code>/data</code>.</p>
+    <p class="muted">Ce dossier rend compte d'une situation en cours. Il est à mettre à jour après le 23 novembre 2026.</p>
+  </footer>
+</body>
+</html>

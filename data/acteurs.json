@@ -1,0 +1,179 @@
+{
+  "partis": {
+    "nva": { "nom": "N-VA", "couleur": "#f2c200", "texte": "#1b1a17", "camp": "majorite" },
+    "mr": { "nom": "MR", "couleur": "#1f4fa3", "texte": "#ffffff", "camp": "majorite" },
+    "eng": { "nom": "Les Engagés", "couleur": "#00a99d", "texte": "#ffffff", "camp": "majorite" },
+    "vooruit": { "nom": "Vooruit", "couleur": "#e4002b", "texte": "#ffffff", "camp": "majorite" },
+    "cdv": { "nom": "CD&V", "couleur": "#f07d00", "texte": "#1b1a17", "camp": "majorite" },
+    "ps": { "nom": "PS", "couleur": "#a3001b", "texte": "#ffffff", "camp": "opposition" },
+    "ptb": { "nom": "PTB-PVDA", "couleur": "#6e0016", "texte": "#ffffff", "camp": "opposition" },
+    "vb": { "nom": "Vlaams Belang", "couleur": "#3a3a3a", "texte": "#f2c200", "camp": "opposition" },
+    "groen": { "nom": "Groen", "couleur": "#3f9b35", "texte": "#ffffff", "camp": "opposition" },
+    "anders": { "nom": "Anders (ex-Open VLD)", "couleur": "#3b6fd8", "texte": "#ffffff", "camp": "opposition" },
+    "social": { "nom": "Partenaires sociaux", "couleur": "#8a5a44", "texte": "#ffffff", "camp": "social" },
+    "inst": { "nom": "Institution", "couleur": "#7d776c", "texte": "#ffffff", "camp": "institution" }
+  },
+  "acteurs": [
+    {
+      "id": "dewever", "nom": "Bart De Wever", "initiales": "BDW", "parti": "nva",
+      "fonction": "Premier ministre (depuis le 3 février 2025)",
+      "posture": "Porteur du « tableau » budgétaire. Offre sa démission le 2 novembre ; le Roi la refuse le 6. Après le kern du 15 novembre, il écarte Vooruit de ses bilatérales.",
+      "style": "Décrit par les politologues comme lent, cordial mais placide. Il fuirait le conflit et se comporterait en « notaire » du gouvernement plus qu'en arbitre créatif. Ironique en public, « assez émotionnel » à huis clos selon la VRT.",
+      "enjeu": "Préserver son autorité de Premier ministre sans paraître céder ni au MR ni à Vooruit."
+    },
+    {
+      "id": "vanpeel", "nom": "Valerie Van Peel", "initiales": "VVP", "parti": "nva",
+      "fonction": "Présidente de la N-VA",
+      "posture": "Fait bloc derrière le Premier ministre et se montre très dure envers le discours de Vooruit sur l'équité. Elle a refusé d'être le « +1 » de la N-VA à la table.",
+      "style": "Phrases chocs (« au bord du gouffre ») et critique des partis qui courent après les « likes ».",
+      "enjeu": "Tenir la N-VA face au Vlaams Belang, au coude-à-coude dans les sondages flamands."
+    },
+    {
+      "id": "jambon", "nom": "Jan Jambon", "initiales": "JJ", "parti": "nva",
+      "fonction": "Vice-Premier, Finances et Pensions",
+      "posture": "Discret. Il insiste sur la responsabilité collective des cinq partis.",
+      "style": "En retrait médiatique.",
+      "enjeu": "Également cité dans le dossier i-Police en tant qu'ancien ministre de l'Intérieur."
+    },
+    {
+      "id": "bouchez", "nom": "Georges-Louis Bouchez", "initiales": "GLB", "parti": "mr",
+      "fonction": "Président du MR et député fédéral (hors gouvernement)",
+      "posture": "Veto sur la hausse de la TVA et règle du « 1/9 » pour les recettes nouvelles. À la table depuis le 9 novembre grâce au compromis du « +1 ». Depuis le 16 novembre, il se tait, fait inhabituel chez lui.",
+      "style": "Surnommé « Premier ministre de l'ombre ». Il assume d'être « un problème pour la vieille politique ». Ses partenaires, sous couvert d'anonymat, disent ne pas comprendre sa psychologie.",
+      "enjeu": "Se présenter comme celui qui refuse toute nouvelle taxe, alors que le MR recule dans les sondages en 2026."
+    },
+    {
+      "id": "clarinval", "nom": "David Clarinval", "initiales": "DC", "parti": "mr",
+      "fonction": "Vice-Premier, Emploi et Économie",
+      "posture": "Relais de Bouchez au kern et défenseur de la ligne du « 1/9 ». Le 15 novembre, il souligne que le MR n'est plus le problème.",
+      "style": "Une source anonyme le qualifie d'« avatar de Bouchez », ce que son entourage dément.",
+      "enjeu": "Faire exister une loyauté gouvernementale distincte de celle du parti."
+    },
+    {
+      "id": "prevot", "nom": "Maxime Prévot", "initiales": "MP", "parti": "eng",
+      "fonction": "Vice-Premier, Affaires étrangères (ancien président des Engagés)",
+      "posture": "Plaide pour un effort des « épaules les plus larges ». Il s'en prend à Bouchez de façon répétée (TVA, Gaza, football). Le 15 novembre, il bascule dans le camp des « quatre » et juge le refus de Vooruit dommageable.",
+      "style": "Petites phrases ciselées, comme le « blocage des Francs Borains ». Il dénonce les fuites.",
+      "enjeu": "Concilier l'alliance régionale avec le MR et la sensibilité sociale de son parti."
+    },
+    {
+      "id": "verougstraete", "nom": "Yvan Verougstraete", "initiales": "YV", "parti": "eng",
+      "fonction": "Président des Engagés",
+      "posture": "Conciliateur au Palais (« une équipe et un entraîneur »). Il écarte les offres de majorité alternative.",
+      "style": "Ton apaisant, mais en froid avec Bouchez depuis la vidéo « caméléon » de l'été 2026.",
+      "enjeu": "Éviter que le contentieux fédéral ne contamine les gouvernements wallon et de la FWB."
+    },
+    {
+      "id": "rousseau", "nom": "Conner Rousseau", "initiales": "CR", "parti": "vooruit",
+      "fonction": "Président de Vooruit",
+      "posture": "Réclame un effort de 1,5 milliard des grandes fortunes. Seul à dire non le 15 novembre (« je l'assume »). Il se dit prêt à revenir à la table « de manière super constructive ».",
+      "style": "Visage calme et institutionnel (au Palais avec son livre, sur le plateau de De Tafel van Tine), en contraste avec l'offensive de Vandenbroucke.",
+      "enjeu": "La survie électorale de Vooruit, concurrencé par le PVDA et Groen."
+    },
+    {
+      "id": "vandenbroucke", "nom": "Frank Vandenbroucke", "initiales": "FV", "parti": "vooruit",
+      "fonction": "Vice-Premier, Santé et Affaires sociales (négociateur en chef de Vooruit)",
+      "posture": "Le 16 novembre, sur Terzake et VTM, il attaque De Wever, Bouchez et Prévot. Le 18, il est exclu des bilatérales.",
+      "style": "Doyen du gouvernement, réputé têtu. Il avait sauvé l'entrée de Vooruit dans l'Arizona en 2024. La presse le surnomme « Gandalf l'aigri » et « Tonton flingueur ».",
+      "enjeu": "Faire des avantages fiscaux du football et de l'index des trophées sociaux."
+    },
+    {
+      "id": "tobback", "nom": "Louis Tobback", "initiales": "LT", "parti": "vooruit",
+      "fonction": "Figure historique du parti (ancien président et ancien ministre)",
+      "posture": "Dans Knack et De Standaard, il décrit une « grande tromperie » de De Wever après la « bromance ».",
+      "style": "Charge personnelle : il reproche au Premier ministre un « manque choquant d'autorité ».",
+      "enjeu": "Légitimer le durcissement de Vooruit auprès de la base."
+    },
+    {
+      "id": "mahdi", "nom": "Sammy Mahdi", "initiales": "SM", "parti": "cdv",
+      "fonction": "Président du CD&V",
+      "posture": "Pousse le Premier ministre « avec une prudence calculée ». Le 2 novembre, W16 décrit un « combat de coqs » avec Bouchez.",
+      "style": "Mène une rivalité ancienne et feutrée avec De Wever ; en septembre 2025, il l'accusait d'« apparence d'intimidation politique ».",
+      "enjeu": "Récupérer des électeurs de la N-VA sans passer pour un saboteur."
+    },
+    {
+      "id": "vanpeteghem", "nom": "Vincent Van Peteghem", "initiales": "VVPe", "parti": "cdv",
+      "fonction": "Vice-Premier, Budget",
+      "posture": "« Gardien des chiffres », d'ordinaire silencieux. Le 17 novembre, il sort de sa réserve contre Vandenbroucke.",
+      "style": "Colère rare et publique : il parle de « fausses informations » et d'une « attaque grossière ».",
+      "enjeu": "Défendre la crédibilité du cadre budgétaire."
+    },
+    {
+      "id": "verlinden", "nom": "Annelies Verlinden", "initiales": "AV", "parti": "cdv",
+      "fonction": "Ministre de la Justice",
+      "posture": "Le parquet général de Bruxelles examine son rôle dans le dossier i-Police. Elle affirme n'avoir « rien à cacher ».",
+      "style": "Sur la défensive.",
+      "enjeu": "Un second front, judiciaire, qui fragilise le CD&V en pleine crise."
+    },
+    {
+      "id": "magnette", "nom": "Paul Magnette", "initiales": "PM", "parti": "ps",
+      "fonction": "Président du PS",
+      "posture": "Refuse de « dépanner un gouvernement moribond ». Il juge pourtant la N-VA « incontournable » à l'avenir, ce qui divise le PS.",
+      "style": "Attaques frontales à la Chambre.",
+      "enjeu": "Préparer l'après-Arizona sans servir de roue de secours."
+    },
+    {
+      "id": "laaouej", "nom": "Ahmed Laaouej", "initiales": "AL", "parti": "ps",
+      "fonction": "Président du PS bruxellois",
+      "posture": "Qualifie d'« erreur tactique » l'ouverture de Magnette à la N-VA.",
+      "style": "Des partenaires de l'Arizona l'ont pris pour contre-modèle (« il quitte la table »).",
+      "enjeu": "La ligne bruxelloise de résistance à l'Arizona."
+    },
+    {
+      "id": "dermagne", "nom": "Pierre-Yves Dermagne", "initiales": "PYD", "parti": "ps",
+      "fonction": "Chef de groupe PS à la Chambre",
+      "posture": "Raille un Premier ministre qui agit « comme si le Roi avait accepté [sa] démission ».",
+      "style": "Ironie parlementaire.",
+      "enjeu": "Occuper le terrain de l'opposition francophone."
+    },
+    {
+      "id": "hedebouw", "nom": "Raoul Hedebouw", "initiales": "RH", "parti": "ptb",
+      "fonction": "Président du PTB-PVDA",
+      "posture": "Encourage Vooruit à « tenir bon » et appelle à manifester le 23 novembre.",
+      "style": "Campagne « Wanted » (mars 2026) visant De Wever, Bouchez et Prévot.",
+      "enjeu": "Capter l'électorat social-démocrate flamand."
+    },
+    {
+      "id": "pas", "nom": "Barbara Pas", "initiales": "BP", "parti": "vb",
+      "fonction": "Cheffe de groupe Vlaams Belang",
+      "posture": "Dépose une motion de méfiance le 16 novembre et réclame des élections.",
+      "style": "Compare la négociation à la procession d'Echternach.",
+      "enjeu": "Capitaliser sur l'usure de la N-VA."
+    },
+    {
+      "id": "vandemaele", "nom": "Matti Vandemaele", "initiales": "MV", "parti": "groen",
+      "fonction": "Chef de groupe Groen à la Chambre",
+      "posture": "Cible à la fois De Wever et Vooruit, et réclame une commission d'enquête sur i-Police.",
+      "style": "Formules piquantes.",
+      "enjeu": "Concurrencer Vooruit sur sa gauche."
+    },
+    {
+      "id": "lachaert", "nom": "Egbert Lachaert", "initiales": "EL", "parti": "anders",
+      "fonction": "Ancien président de l'Open VLD (a quitté Anders)",
+      "posture": "Sur X, le 17 novembre, il affirme que Vooruit a décidé depuis longtemps de partir.",
+      "style": "Commentateur-acteur.",
+      "enjeu": "Anders se pose en appoint pour un « budget de croissance », une hypothèse fragile."
+    },
+    {
+      "id": "michel", "nom": "Louis Michel", "initiales": "LM", "parti": "mr",
+      "fonction": "Ancien président du MR",
+      "posture": "Défend Bouchez contre l'étiquette de « belgicain » et prône le « massage » plutôt que l'invective.",
+      "style": "Ancien de la maison.",
+      "enjeu": "Couvrir le silence de Bouchez."
+    },
+    {
+      "id": "roi", "nom": "Roi Philippe", "initiales": "R", "parti": "inst",
+      "fonction": "Chef de l'État",
+      "posture": "Tient la démission en suspens puis la refuse le 6 novembre. Obtient de chaque président un « engagement formel » de concessions. Nouveaux rapports fixés au 16 puis au 23 novembre.",
+      "style": "Sinardet parle de dramatisation. Il s'appuie sur les présidents de parti, qui détiennent le « vrai pouvoir ».",
+      "enjeu": "Éviter des élections anticipées."
+    },
+    {
+      "id": "syndicats", "nom": "FGTB · CSC · FEB", "initiales": "G10", "parti": "social",
+      "fonction": "Partenaires sociaux",
+      "posture": "Manifestation nationale le 23 novembre, le jour du rapport au Roi. Le patronat (FEB) parle de sa « plus grande déception ».",
+      "style": "Pression de la rue d'un côté, désaveu patronal de l'autre.",
+      "enjeu": "L'index, les pensions, un jour férié."
+    }
+  ]
+}

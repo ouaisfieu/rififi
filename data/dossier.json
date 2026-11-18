@@ -1,0 +1,73 @@
+{
+  "etat_au": "2026-11-18T22:30:00+01:00",
+  "echeance": { "date": "2026-11-23T09:00:00+01:00", "label": "Rapport au Roi · manifestation nationale" },
+  "these": "La crise budgétaire de l'Arizona est d'abord une crise de confiance entre personnes. L'écart chiffré qui sépare les partis est faible. La distance entre les hommes, elle, ne cesse de grandir.",
+  "chiffres": [
+    { "valeur": "10 Md€", "label": "d'effort à trouver d'ici 2029" },
+    { "valeur": "4 / 5", "label": "partis ont accepté le cadre du 15 novembre" },
+    { "valeur": "≈ 1,1 – 1,5 Md€", "label": "fourchette disputée des recettes « épaules larges »" },
+    { "valeur": "2", "label": "passages au Palais en quinze jours (2 et 16 nov.)" }
+  ],
+  "points_cles": [
+    { "titre": "La rupture centrale oppose De Wever à Vooruit", "texte": "Le duo qui avait porté la formation du gouvernement s'est brisé entre la fuite sur VTM (15 nov.) et l'offensive télévisée de Vandenbroucke (16 nov.). Le 18, De Wever consulte tous les partis sauf Vooruit." },
+    { "titre": "Le MR et Vooruit ont échangé leurs rôles", "texte": "Bloqueur désigné en octobre (veto sur la TVA), le MR se retrouve dans le camp des « quatre ». Bouchez, d'habitude prolixe, se tait." },
+    { "titre": "Le front francophone est fissuré", "texte": "Le conflit Bouchez–Prévot dure depuis des mois (coopération, TVA, Gaza, football). Les Engagés tiennent pourtant l'alliance avec le MR dans les Régions." },
+    { "titre": "La méthode De Wever est contestée", "texte": "Lent, placide, rétif au conflit : les politologues et une partie de la majorité mettent en cause le style du Premier ministre, et pas seulement les blocages des partis." },
+    { "titre": "Le débat devient communautaire", "texte": "En traitant Bouchez de « belgicain » et en évoquant les « enseignants flamands », Vooruit déplace le débat sur un terrain identitaire, celui de la N-VA." }
+  ],
+  "scenarios": [
+    { "id": "accord", "titre": "Accord arraché autour du 23 novembre", "proba": "affaiblie",
+      "texte": "Il s'appuierait sur les quelque 80 pages de notifications déjà rédigées et offrirait à Vooruit une porte de sortie symbolique (le football, les grandes fortunes). Il existe un précédent : l'accord du 24 novembre 2025.",
+      "condition": "Une rencontre De Wever–Rousseau, et le silence de Bouchez sur un geste en faveur de Vooruit." },
+    { "id": "sursis", "titre": "Nouveau sursis", "proba": "plausible",
+      "texte": "Le 23 novembre n'est qu'un rapport, pas une date butoir. Dans ce cas, 2027 commence en douzièmes provisoires et la négociation se prolonge.",
+      "condition": "Pas de rupture formelle, une nouvelle mission royale." },
+    { "id": "sans-vooruit", "titre": "Recomposition sans Vooruit", "proba": "peu réaliste",
+      "texte": "Avec Anders, la majorité ne tiendrait qu'à un siège. Le PS refuse de « dépanner », et Vandenbroucke ne veut pas gouverner avec le PS.",
+      "condition": "Un ralliement improbable d'une autre formation." },
+    { "id": "elections", "titre": "Chute et élections anticipées", "proba": "n'est plus taboue",
+      "texte": "L'article 46 de la Constitution impose un vote de la Chambre à la majorité absolue, puis un scrutin dans les 40 jours, soit une campagne pendant les fêtes. Lachaert juge ce scénario « hautement probable ».",
+      "condition": "Constat d'échec, bilatérales sans Vooruit au-delà du 20 novembre." }
+  ],
+  "signaux": [
+    "Une rencontre De Wever–Rousseau, même au niveau des présidents, serait le seul vrai signe de dégel.",
+    "Un geste partiel sur les avantages fiscaux des footballeurs, déjà soutenu par le CD&V et Les Engagés, marquerait le compromis.",
+    "Si Bouchez reste silencieux, le MR laisse Vooruit porter seul le blocage. Une réplique virulente compliquerait tout.",
+    "Un retour de Vooruit à la discrétion, prôné par Louis Michel et Ivan De Vadder, traduirait une volonté réelle de conclure.",
+    "Le dossier i-Police (Verlinden) peut affaiblir le CD&V à tout moment."
+  ],
+  "analyses": [
+    { "auteur": "Dave Sinardet", "affiliation": "VUB", "sur": ["dewever", "bouchez", "rousseau"],
+      "texte": "La crise est « multifactorielle ». En acceptant le veto de Bouchez sur la TVA, De Wever a donné à Vooruit une méthode de blocage. Sinardet voit en lui plus un « notaire » à la Martens qu'un Dehaene inventif, un homme qui doute en petit comité et n'aime pas le conflit. Il décrit un pouvoir hybride : cinq présidents, dont trois hors du gouvernement.",
+      "sources": ["dh-1116-methode", "vrt-live"] },
+    { "auteur": "Pascal Delwit", "affiliation": "ULB", "sur": ["dewever"],
+      "texte": "Percutant en campagne, beaucoup moins en négociation. À force d'aller chez le Roi, le Premier ministre risque de ne plus être pris au sérieux, et sa part de responsabilité dans l'échec est réelle.",
+      "sources": ["dh-1116-methode"] },
+    { "auteur": "Caroline Sägesser", "affiliation": "CRISP", "sur": ["dewever"],
+      "texte": "Le dossier a été mal préparé, par un Premier ministre sans expérience gouvernementale. Un gouvernement fonctionne au consensus et non à la majorité, et la menace du recours au Roi ne fonctionne plus.",
+      "sources": ["dh-1116-methode"] },
+    { "auteur": "Bart Maddens", "affiliation": "KU Leuven", "sur": [],
+      "texte": "Le 6 novembre, il jugeait la chance d'un accord réelle. Des élections seraient la situation que tous les partis redoutent.",
+      "sources": ["vrt-live"] },
+    { "auteur": "Ivan De Vadder", "affiliation": "VRT", "sur": ["vandenbroucke", "bouchez"],
+      "texte": "Avec Bouchez à la table, le « Premier ministre de l'ombre » sort de l'ombre. Vandenbroucke a ensuite « verrouillé » la négociation en faisant du football un trophée. La parole est d'argent, le silence est d'or.",
+      "sources": ["vrt-fr-1109", "vrt-dvadder"] },
+    { "auteur": "Koen Geens", "affiliation": "CD&V, ancien ministre", "sur": ["bouchez"],
+      "texte": "Le défaut de fabrication de ce gouvernement, c'est que Bouchez n'y est pas entré.",
+      "sources": ["vrt-live"] },
+    { "auteur": "Charles Picqué", "affiliation": "PS, ancien ministre-président bruxellois", "sur": ["rousseau", "vandenbroucke"],
+      "texte": "Vooruit joue sa survie électorale et doit décrocher un trophée.",
+      "sources": ["dh-1118-survie"] },
+    { "auteur": "La presse", "affiliation": "Éditoriaux et unes", "sur": ["vandenbroucke", "rousseau"],
+      "texte": "La Libre se demande si Rousseau « a menti au Roi » et parle de « Tonton flingueur ». La DH titre « Gandalf l'aigri » et pose la question « Haine ou spectacle ? ». L'Echo écrit que cela « ne ressemble plus à un gouvernement ». HLN et Het Nieuwsblad lisent l'attaque contre Bouchez comme une attaque contre le Flamand De Wever et un passage en « mode campagne ».",
+      "sources": ["lalibre-edito-rousseau", "rtbf-revue", "brf-1118", "dh-1117-ringard"] }
+  ],
+  "divergences": [
+    { "sujet": "Date de l'offensive de Vandenbroucke", "texte": "La DH la situe un « mercredi soir ». La VRT et La Libre la datent du lundi 16 novembre, date retenue ici." },
+    { "sujet": "Prévot contre la présence de Bouchez à la table", "texte": "L'un des rapports date cet épisode du 3 juin 2026, l'autre du début novembre (Business AM). La date exacte reste à vérifier." },
+    { "sujet": "Les douzièmes provisoires", "texte": "De Wever a d'abord juré qu'il n'y recourrait pas, puis il a confirmé que 2027 démarrerait sous ce régime. Les sources ne citent pas toutes la même étape." },
+    { "sujet": "L'écart chiffré", "texte": "Les estimations varient : 300 millions restants selon De Tijd, 750 millions réclamés par Vooruit selon La Libre, des recettes « épaules larges » de 1,15 à 1,2 milliard dans le cadre du 15 novembre, et 1,5 milliard demandé par Rousseau." },
+    { "sujet": "Les avantages du football", "texte": "Vandenbroucke parle de 253 millions, Knack d'un avantage de 70 millions début novembre. De Wever aurait proposé une première réduction de 20 millions (source gouvernementale anonyme)." },
+    { "sujet": "Vandenbroucke a-t-il traité Prévot d'« hypocrite » ?", "texte": "Le terme (scheinheilig) vient de la revue de presse germanophone de la BRF, qui résume L'Echo. Le mot exact n'a pas pu être vérifié dans une source primaire." }
+  ]
+}
